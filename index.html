@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/Logo_Zelda.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@100;300;500&family=Sarala&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="responsivo.css">
+
+    <title>Jogo de Zelda - The Legend of Zelda: Breath of the Wild</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted >
+             <source src="video/Zelda_Game.mp4" type="video/mp4"></source>
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a >
+            <img  class="logo" src="img/Logo_Zelda.png" alt="Logo da Zelda">
+        </a>
+        <nav>
+            <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+            <div class="informacoes">
+                    <img  class="imagem-titulo" src="img/Titulo-Zelda.webp" alt="Titulo zelda">
+                    <p class="descricao">É o décimo nono título da série The Legend of Zelda e foi lançado mundialmente para Wii U e Nintendo Switch em 3 de março de 2017. A história segue Link, que acorda em uma Hyrule devastada após cem anos de sono e precisa recuperar suas memórias e derrotar o mal causado por Calamity Ganon.</p>
+                    <button class="botao-trailer">Veja o trailer</button>
+            </div>
+            <img  class="zelda" src="img/Zelda.woman.webp" alt="Zelda Woman">
+            <div class="modal">
+                <div class="conteudo-modal">
+                        <span class="fechar-modal">X</span>
+                        <iframe width="560" height="315"  id="video" src="https://www.youtube.com/embed/zw47_q9wbBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+    </main>
+    <script src="index.js"></script> 
+</body>
+</html>
